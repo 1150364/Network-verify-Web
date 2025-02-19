@@ -84,7 +84,7 @@
         <div class="header-container">
           <div class="left">
             <el-icon class="fold-btn" @click="isMobile ? toggleDrawer() : toggleSidebar()">
-                <component :is="isMobile ? drawerVisible ? Fold : Expand : isCollapse ? Expand : Fold" />
+                <component :is="isMobile ? (drawerVisible ? Fold : Expand) : (isCollapse ? Expand : Fold)" />
               </el-icon>
           </div>
           <div class="right">
