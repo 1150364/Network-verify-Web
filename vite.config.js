@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/admin': {
-        target: 'http://110.40.63.163:29406',//http://110.40.63.163:29406
+        target: 'http://110.40.59.115:29406',//http://110.40.63.163:29406
         changeOrigin: true,
       }
     }
