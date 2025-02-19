@@ -83,10 +83,9 @@
       <el-header height="60px">
         <div class="header-container">
           <div class="left">
-            <el-icon class="fold-btn" :class="{ 'is-collapsed': isCollapse }"
-              @click="isMobile ? toggleDrawer() : toggleSidebar()">
-              <component :is="isMobile ? (drawerVisible ? Fold : Expand) : (isCollapse ? Expand : Fold)" />
-            </el-icon>
+            <el-icon class="fold-btn" @click="isMobile ? toggleDrawer() : toggleSidebar()">
+                <component :is="isMobile ? drawerVisible ? Fold : Expand : isCollapse ? Expand : Fold" />
+              </el-icon>
           </div>
           <div class="right">
             <el-dropdown>
@@ -302,17 +301,12 @@ const handleLogout = () => {
   font-size: 20px;
   cursor: pointer;
   color: #303133;
-  transition: transform 0.3s;
   display: flex;
   align-items: center;
 }
 
 .fold-btn:hover {
   color: #409EFF;
-}
-
-.fold-btn.is-collapsed {
-  transform: rotate(180deg);
 }
 
 .user-info {
