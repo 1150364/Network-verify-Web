@@ -1,5 +1,33 @@
-# Vue 3 + Vite
+# 网络验证管理后台
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### **管理员角色**
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+仪表盘
+
+![](assets/20250219_180451_image.png)
+
+用户管理
+
+![](assets/20250219_180621_image.png)
+
+在线用户
+
+![](assets/20250219_180755_image.png)
+
+卡密管理
+
+![](assets/20250219_180853_image.png)
+
+订单管理
+
+![](assets/20250219_180919_image.png)
+
+### **代理角色**
+
+创建卡密
+
+![](assets/20250219_181342_image.png)
+
+订单管理
+
+![](assets/20250219_181454_image.png)
